@@ -1,0 +1,135 @@
+body {
+  overflow-x: hidden;
+}
+#icon {
+  font-size: 25px;
+  color: lightgray;
+}
+.icon-section {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+  margin: 9% 0%;
+}
+.list {
+  display: flex;
+  width: 60%;
+}
+.list > div {
+  width: 50%;
+}
+.blue-bck {
+  height: 100% !important;
+  background-color: darkblue;
+  width: 40%;
+  padding-left: 4%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+#icon:hover {
+  color: rgb(14, 168, 14);
+  text-shadow: 1px 1px 1px #ccc;
+}
+.border-pre {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 7%;
+}
+.header {
+  height: 70px;
+  margin-bottom: 40px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  margin-left: 4%;
+}
+.header ul {
+  /* width: 100%; */
+  height: 75%;
+  padding: 0px;
+  border-bottom: 2px solid rgb(177, 173, 173);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 1%;
+}
+.header li {
+  list-style: none;
+  width: 100%;
+  height: 60%;
+}
+.header li:hover {
+  border-bottom: 1px solid rgb(14, 168, 14);
+}
+.video {
+  display: flex;
+
+  gap: 6%;
+  width: 100%;
+  margin: 0% 4% 3% 4%;
+}
+
+.video-title > h1 {
+  font-size: 40px;
+  margin-bottom: 56px;
+}
+.resept {
+  display: flex;
+  justify-content: center;
+  padding: 3% 0%;
+  margin: 0% 4%;
+  background-color: rgb(237, 237, 237);
+}
+.resept > div {
+  max-height: 300px;
+  /* width: 30%; */
+  /* padding: 0% 2%; */
+}
+.resept p {
+  color: rgb(87, 85, 85);
+}
+.resept > :nth-child(1) {
+  border-right: 2px solid rgb(177, 173, 173);
+  width: 20%;
+  /* padding-right:8% !important; */
+}
+.resept > :nth-child(2) {
+  width: 65%;
+  padding-left: 5%;
+}
+.footer-first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  margin: 1% 4%;
+}
+.footer-first > a {
+  color: black;
+}
+.footer-sec {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  align-items: center;
+  margin: 0% 4% 5% 5%;
+}
+.gray-txt {
+  color: gray;
+}
+.footer-sec img {
+  border-radius: 10%;
+  /* max-width: 50%;
+     */
+  width: 50%;
+  min-height: 190px;
+}
+.footer-sec > div {
+  display: flex;
+  align-items: center;
+}
+.footer-sec > div div {
+  width: 40%;
+  margin-left: 7%;
+}
